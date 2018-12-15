@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, BrowserRouter,Route } from 'react-router-dom'
+import { HashRouter, BrowserRouter,Route } from 'react-router-dom';
 // import './index.css';
 // import App from './App';
 import App2 from './App2';
-import About from './About'
+import About from './About';
+import {UserForm} from './UserForm';
 import * as serviceWorker from './serviceWorker';
 
 const routes = (
@@ -12,6 +13,7 @@ const routes = (
         <div>
             <Route path="/" exact component={App2} />
             <Route path="/about" component={About} />
+            <Route path="/user" component={UserForm} />
         </div>
     </HashRouter>
 );

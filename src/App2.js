@@ -11,7 +11,7 @@ class App2 extends Component {
   render() {
     return (
       <Row type="flex" justify="center" >
-        <Col span={24}>
+        <Col span={23}>
           <MyHeader selectedMenu="home"/>
           <Wellcome title="My Shop"/>
         </Col>
