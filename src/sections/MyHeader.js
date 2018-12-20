@@ -36,6 +36,8 @@ export default class MyHeader extends Component{
           <SubMenu title={<span><Icon type="setting"/>Setting</span>}>
             <MenuItemGroup title="Item 1">
               <MenuItem key="morepage:userform"><Link to="/user">User Page</Link></MenuItem>
+              <MenuItem key="morepage:registerform"><Link to="/register">Register Page</Link></MenuItem>
+              <MenuItem key="morepage:bookingform"><Link to="/booking">Booking Page</Link></MenuItem>
               <MenuItem key="morepage:about"><Link to="/about">About Page</Link></MenuItem>
             </MenuItemGroup>
             <MenuItemGroup title="Item 2">

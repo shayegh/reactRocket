@@ -6,6 +6,8 @@ import { HashRouter, BrowserRouter,Route } from 'react-router-dom';
 import App2 from './App2';
 import About from './About';
 import {UserForm} from './UserForm';
+import {FormikApp} from './Register';
+import BookingForm from "./components/BookingForm";
 import * as serviceWorker from './serviceWorker';
 
 const routes = (
@@ -14,6 +16,8 @@ const routes = (
             <Route path="/" exact component={App2} />
             <Route path="/about" component={About} />
             <Route path="/user" component={UserForm} />
+            <Route path="/register" component={FormikApp} />
+            <Route path="/booking" component={BookingForm} />
         </div>
     </HashRouter>
 );

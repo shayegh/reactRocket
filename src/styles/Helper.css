@@ -89,4 +89,8 @@
     border: 1px solid #aaa;
     color: #555;
   }
+
+  .Error {
+    color: red;
+  }
   
